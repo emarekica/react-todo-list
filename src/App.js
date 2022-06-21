@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+const App = () => {
+  const [newItem, setNewItem] = useState("");
+
+  // send via props "previousItemAdded" to the place (component) that handles it
+  const addNewItemHandler = (newItemAdded) => {
+    setNewItem((previousItemAdded) => {
+      return [...previousItemAdded, newItem];
+    });
+  };
+
+  // triggered on user input keystroke
+  // handle data collected from input
+  const newItemValueHandler = (e) => {
+    // set to what user curently entered
+    setNewItem(e.target.value);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form onSubmit={addNewItemHandler}>
+        Add an item
+        <br />
+        <input
+          type="text"
+          placeholder="Type your item here"
+          value={newItem}
+          onChange={newItemValueHandler}
+        />
+      </form>
     </div>
   );
-}
+};
 
 export default App;
