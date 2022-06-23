@@ -1,0 +1,29 @@
+/* header */
+@import url(https://fonts.googleapis.com/css2?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css2?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Pen+Script);
+
+/* list */
+@import url(https://fonts.googleapis.com/css2?family=Coming+Soon);
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+
+/* 
+font-family: 'Rock Salt', cursive;
+font-family: 'Indie Flower', cursive;
+
+font-family: 'Nanum Pen Script', cursive;
+
+font-family: 'Coming Soon', cursive;
+font-family: 'Cedarville Cursive', cursive;
+
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../assets/papir.png);
+  font-family: "Rock Salt", cursive;
+}

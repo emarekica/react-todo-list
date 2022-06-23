@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import "./App.css";
+
 const App = () => {
   const [newItem, setNewItem] = useState("");
 
@@ -19,8 +21,9 @@ const App = () => {
 
   return (
     <div className="App">
+      <header>My TO-DO list</header>
       <form onSubmit={addNewItemHandler}>
-        Add an item
+        <p>Add an item:</p>
         <br />
         <input
           type="text"
@@ -28,6 +31,13 @@ const App = () => {
           value={newItem}
           onChange={newItemValueHandler}
         />
+        {/* temporary */}
+        <input type={chek}>
+          <li className="list-item">item 1</li>
+          <li className="list-item">item 2</li>
+          <li className="list-item">item 3</li>
+          <li className="list-item">item 4</li>
+        </input>
       </form>
     </div>
   );
