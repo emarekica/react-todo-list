@@ -1,0 +1,9 @@
+.list-item {
+  font-family: "Rock Salt", cursive;
+}
+
+@media (max-width: 700px) {
+  .list-item {
+    font-size: 0.7em;
+  }
+}
