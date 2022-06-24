@@ -18,6 +18,12 @@
 
 [ ] List component
 
+[ ] Button component
+
+[ ] Card component (holds what is in the App.css)
+
+[ ] Make list responsive
+
 <br><br>
 
 <hr />
