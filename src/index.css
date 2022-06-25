@@ -24,6 +24,9 @@ font-family: 'Cedarville Cursive', cursive;
 }
 
 body {
+  display: flex;
+  justify-content: center;
+
   background: url(../assets/papir.png);
   font-family: "Rock Salt", cursive;
 }

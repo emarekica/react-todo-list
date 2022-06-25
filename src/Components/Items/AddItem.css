@@ -1,18 +1,28 @@
-input {
-  margin-bottom: 2em;
+.input {
+  margin: 1.5em 0 0.5em 0;
   padding: 0.5em 0.5em;
-  text-align: center;
-  width: 20em;
+  width: 15em;
+
   border: none;
   border-radius: 0.3em;
-  font-size: 0.6em;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
   font-family: "Nanum Pen Script", cursive;
-  text-transform: uppercase;
+  font-size: 0.6em;
   letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-@media (max-width: 700px) {
-  input {
-    width: 15em;
+@media (max-width: 730px) {
+  .input {
+    width: 12em;
+  }
+}
+
+@media (max-width: 570px) {
+  .input {
+    font-size: 0.5em;
+    width: 10em;
   }
 }

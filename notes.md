@@ -14,15 +14,17 @@
 
 [x] Import 2 font types (header, list)
 
-[ ] Add check box next to each item
+[x] turn all selected elements in CSS into selected classes
 
-[ ] List component
+[x] List component
 
-[ ] Button component
+[x] Button component
 
-[ ] Card component (holds what is in the App.css)
+[x] Card component (holds what is in the App.css)
 
-[ ] Make list responsive
+[x] Make list responsive
+
+[ ] Fill Components with logic
 
 <br><br>
 
@@ -31,3 +33,7 @@
 <br>
 
 ## Improvements
+
+<br>
+
+[ ] Add check box next to each item

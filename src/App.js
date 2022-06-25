@@ -25,26 +25,31 @@ const App = () => {
       <AddItem />
       <ItemList />
       */}
-      <header>My TO-DO list</header>
-      <form onSubmit={addNewItemHandler}>
-        <p>Add an item:</p>
-        <br />
-        <input
-          type="text"
-          placeholder="Type your item here"
-          value={newItem}
-          onChange={newItemValueHandler}
-        />
-        <button>Add</button>
+      <header class="header">My TO-DO list</header>
 
-        {/* temporary */}
-        <ul>
-          <li className="list-item">item 1</li>
-          <li className="list-item">item 2</li>
-          <li className="list-item">item 3</li>
-          <li className="list-item">item 4</li>
-        </ul>
-      </form>
+      <div class="form-container">
+        <form onSubmit={addNewItemHandler}>
+          <p>Add an item:</p>
+
+          <div class="input-container">
+            <input
+              class="input"
+              type="text"
+              placeholder="Type your item here"
+              value={newItem}
+              onChange={newItemValueHandler}
+            />
+            <button class="button">Add</button>
+          </div>
+          {/* temporary */}
+          <ul>
+            <li className="list-item">item 1</li>
+            <li className="list-item">item 2</li>
+            <li className="list-item">item 3</li>
+            <li className="list-item">item 4</li>
+          </ul>
+        </form>
+      </div>
     </div>
   );
 };
