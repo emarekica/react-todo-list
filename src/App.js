@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import Card from "./Components/UI/Card";
 import "./App.css";
 
 const App = () => {
@@ -26,29 +27,32 @@ const App = () => {
       <ItemList />
       */}
       <header class="header">My TO-DO list</header>
+      <div>
+        <Card>
+          <div class="formContainer">
+            <form onSubmit={addNewItemHandler}>
+              <p class="textElement">Add an item:</p>
 
-      <div class="form-container">
-        <form onSubmit={addNewItemHandler}>
-          <p>Add an item:</p>
-
-          <div class="input-container">
-            <input
-              class="input"
-              type="text"
-              placeholder="Type your item here"
-              value={newItem}
-              onChange={newItemValueHandler}
-            />
-            <button class="button">Add</button>
+              <div class="inputContainer">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Type your item here"
+                  value={newItem}
+                  onChange={newItemValueHandler}
+                />
+                <button class="button">Add</button>
+              </div>
+              {/* temporary */}
+              <ul>
+                <li className="listItem">item 1</li>
+                <li className="listItem">item 2</li>
+                <li className="listItem">item 3</li>
+                <li className="listItem">item 4</li>
+              </ul>
+            </form>
           </div>
-          {/* temporary */}
-          <ul>
-            <li className="list-item">item 1</li>
-            <li className="list-item">item 2</li>
-            <li className="list-item">item 3</li>
-            <li className="list-item">item 4</li>
-          </ul>
-        </form>
+        </Card>
       </div>
     </div>
   );

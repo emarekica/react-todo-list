@@ -1,9 +1,9 @@
 import React from "react";
 
-import classes "./AddItem.module.css";
+import classes from "./AddItem.module.css";
 
 const AddItem = () => {
-  return <div></div>
-}
+  return <div></div>;
+};
 
 export default AddItem;
