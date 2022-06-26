@@ -26,9 +26,8 @@
   font-size: 2em;
 }
 
-.textElement {
-  margin-top: 2em;
-  margin-bottom: 0;
+p {
+  margin: 1.5em 0 0.7em 0;
 }
 
 @media (max-width: 730px) {
