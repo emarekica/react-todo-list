@@ -1,10 +1,12 @@
+// fetches/collects user data
+
 import React, { useState } from "react";
 
 import Button from "../UI/Button";
 import Card from "../UI/Card";
 import classes from "./AddItem.module.css";
 
-const AddItem = () => {
+const AddItem = (props) => {
   const [newItem, setNewItem] = useState("");
 
   // function executed when form submitted
@@ -12,14 +14,12 @@ const AddItem = () => {
   const formSubmitHandler = (e) => {
     e.preventDefault();
 
-    setNewItem((previousItemAdded) => {
-      return [...previousItemAdded, newItem];
-    });
-
     // validation (stop if input field empty)
     if (newItem.trim().length === 0) {
       return;
     }
+
+    props.onAddingNewItem(newItem);
 
     // reset
     setNewItem("");
