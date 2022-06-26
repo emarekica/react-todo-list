@@ -8,12 +8,21 @@ const AddItem = () => {
   const [newItem, setNewItem] = useState("");
 
   // function executed when form submitted
-  // uses data collected in "input"
   // send via props "previousItemAdded" to the place (component) that handles it
-  const formSubmitHandler = (newItemAdded) => {
+  const formSubmitHandler = (e) => {
+    e.preventDefault();
+
     setNewItem((previousItemAdded) => {
       return [...previousItemAdded, newItem];
     });
+
+    // validation (stop if input field empty)
+    if (newItem.trim().length === 0) {
+      return;
+    }
+
+    // reset
+    setNewItem("");
   };
 
   // triggered on user input keystroke
@@ -41,12 +50,12 @@ const AddItem = () => {
             <Button type="submit">Add</Button>
           </div>
           {/* temporary */}
-          <ul>
+          {/* <ul>
             <li className="listItem">item 1</li>
             <li className="listItem">item 2</li>
             <li className="listItem">item 3</li>
             <li className="listItem">item 4</li>
-          </ul>
+          </ul> */}
         </form>
       </Card>
     </div>
