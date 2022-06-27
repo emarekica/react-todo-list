@@ -58,7 +58,7 @@ const AddItem = (props) => {
 
           <div className={classes.inputContainer}>
             <input
-              className="input"
+              className={classes.input}
               type="text"
               id="item"
               placeholder="Type your item here"
