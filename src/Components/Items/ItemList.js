@@ -9,8 +9,7 @@ const ItemList = (props) => {
   return (
     <ul className={classes.listItem}>
       {props.itemsFromInput.map((item) => (
-        // subject to change
-        <li>{item}</li>
+        <li key={item.id}>{item.name}</li>
       ))}
     </ul>
   );
