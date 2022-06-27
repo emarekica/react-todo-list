@@ -48,6 +48,14 @@ This is a simple React project aimed to stengthen basic React principles.
 
 <br>
 
+[Try the app](https://emarekica.github.io/react-todo-list/)
+
+<br><br>
+
+---
+
+<br>
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
