@@ -5,11 +5,11 @@ import classes from "./ErrorModal.module.css";
 
 const ErrorModal = (props) => {
   return (
-    <div>
-      <div className={classes.backdrop} onclick={props.onHandlingError} />
-      <div className={classes.modalContainer}>
+    <div className={classes.container}>
+      <div className={classes.backdrop} onClick={props.onHandlingError} />
+      <div className={classes.modal}>
         <p>{props.errorMessage}</p>
-        <Button onclick={props.onHandlingError}>Got it!</Button>
+        <Button onClick={props.onHandlingError}>Got it!</Button>
       </div>
     </div>
   );

@@ -5,76 +5,10 @@
   letter-spacing: 0.2em;
   text-align: center;
 }
-/* Card.module.css */
 
-/* .formContainer {
-  display: flex;
+/* ---- */
 
-  align-items: center;
-  flex-flow: column nowrap;
-  margin: 1em 4em 3em 4em;
-  padding: 0.2em 0 2em 0.4em;
-  width: 20em;
-  height: 17em;
-
-  background-color: #f2ec9482;
-  border-radius: 0.3em;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
-    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
-    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 2em;
-} */
-
-/* .textElement {
-  margin-bottom: 0;
-  margin-top: 2em;
-} */
-
-/* AddItem.module.css */
-
-/* .input {
-  margin: 0.5em 0 0.5em 0;
-  padding: 0.5em 0.5em;
-  width: 15em;
-
-  border: none;
-  border-radius: 0.3em;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 0.6em;
-  letter-spacing: 0.1em;
-  text-align: center;
-  text-transform: uppercase;
-} */
-
-/* Button.module.css */
-
-.button {
-  margin-left: 0.5em;
-  padding: 0.5em;
-
-  border: none;
-  border-radius: 0.3em;
-  background: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 0.6em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-/* ItemList.module.css */
-
-.listItem {
-  font-family: "Rock Salt", cursive;
-  font-size: 0.8em;
-}
-
-@media (max-width: 730px) {
+/* @media (max-width: 730px) {
   .formContainer {
     margin: 1em 3em 1em 2em;
     width: 80%;
@@ -88,9 +22,9 @@
   .listItem {
     font-size: 0.6em;
   }
-}
+} */
 
-@media (max-width: 570px) {
+/* @media (max-width: 570px) {
   .formContainer {
     margin: 0 auto;
     padding-bottom: 1.5em;
@@ -105,4 +39,4 @@
   .listItem {
     font-size: 0.5em;
   }
-}
+} */
