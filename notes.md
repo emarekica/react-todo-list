@@ -24,7 +24,11 @@
 
 [x] Make list responsive
 
-[ ] Fill Components with logic
+[x] Fill Components with logic
+
+[ ] Add Error Modal
+
+[ ] Fix list rendering outside of the AddItem component (see Expense tracker project)
 
 <br><br>
 
