@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import classes from "./ItemList.modul.css";
+import classes from "./ItemList.module.css";
 
 // In the ul, go through a list of users that you get from AddUser and output an li
 const ItemList = (props) => {

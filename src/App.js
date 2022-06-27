@@ -17,7 +17,7 @@ const App = (props) => {
     <div>
       <header className="header">My TO-DO list</header>
       <AddItem onAddingNewItem={addNewItemHandler} />
-      <ItemList itemsFromInput={[]} />
+      <ItemList itemsFromInput={listItem} />
     </div>
   );
 };
