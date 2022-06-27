@@ -34,7 +34,7 @@
 
 [x] Style `ul`
 
-[ ] fix font size in error modal
+[ ] fix error modal responsiveness / sizes
 
 <br><br>
 
@@ -46,4 +46,4 @@
 
 <br>
 
-[ ] Add check box next to each item
+[ ] Add check box next to each item to remove it
