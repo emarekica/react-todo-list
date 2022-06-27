@@ -34,7 +34,7 @@
 
 [x] Style `ul`
 
-[ ] fix error modal responsiveness / sizes
+[ ] polish error modal sizes
 
 <br><br>
 

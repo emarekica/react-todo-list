@@ -40,7 +40,7 @@ This is a simple React project aimed to stengthen basic React principles.
 
 <br>
 
-![TO-DO list mockup](./assets/to-do_mockup.png)
+![TO-DO list mockup](./assets/to-do_mockup_full.png)
 
 <br><br>
 
