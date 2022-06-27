@@ -16,5 +16,3 @@ const ErrorModal = (props) => {
 };
 
 export default ErrorModal;
-
-// Think harder, get your pencil and write something! You can do it!

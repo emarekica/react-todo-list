@@ -1,9 +1,11 @@
 .list {
-  text-align: start;
-  line-height: 1.7em;
+  margin-top: 2em;
+
   font-family: "Rock Salt", cursive;
-  font-weight: 200;
   font-size: 0.7em;
+  font-weight: 200;
+  line-height: 2em;
+  text-align: start;
 }
 
 @media (max-width: 730px) {
