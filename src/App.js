@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import AddItem from "./Components/Items/AddItem";
-
+import Card from "./Components/UI/Card";
 import ItemList from "./Components/Items/ItemList";
 import "./App.css";
 
@@ -25,8 +25,10 @@ const App = (props) => {
       <header className="header">My TO-DO list</header>
 
       <div>
-        <AddItem onAddingNewItem={addNewItemHandler} />
-        <ItemList itemsFromInput={listItem} />
+        <Card>
+          <AddItem onAddingNewItem={addNewItemHandler} />
+          <ItemList itemsFromInput={listItem} />
+        </Card>
       </div>
     </div>
   );

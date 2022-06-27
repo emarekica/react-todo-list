@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 
 import Button from "../UI/Button";
-import Card from "../UI/Card";
 import ErrorModal from "../UI/ErrorModal";
+
 import classes from "./AddItem.module.css";
 
 const AddItem = (props) => {
@@ -52,7 +52,7 @@ const AddItem = (props) => {
           onHandlingError={errorHandler}
         />
       )}
-      <Card classFromOutside={classes.input}>
+      <div>
         <form onSubmit={formSubmitHandler} className={classes.formContainer}>
           <p className="textElement">Add an item:</p>
 
@@ -67,15 +67,8 @@ const AddItem = (props) => {
             />
             <Button type="submit">Add</Button>
           </div>
-          {/* temporary */}
-          {/* <ul>
-            <li className="listItem">item 1</li>
-            <li className="listItem">item 2</li>
-            <li className="listItem">item 3</li>
-            <li className="listItem">item 4</li>
-          </ul> */}
         </form>
-      </Card>
+      </div>
     </div>
   );
 };

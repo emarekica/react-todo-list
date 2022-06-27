@@ -28,9 +28,13 @@
 
 [x] Add Error Modal
 
-[ ] Adjust Modal position
+[x] Adjust Modal position
 
-[ ] Fix list rendering outside of the AddItem component (see Expense tracker project)
+[x] Fix list rendering outside of the AddItem component (see Expense tracker project)
+
+[x] Style `ul`
+
+[ ] fix font size in error modal
 
 <br><br>
 

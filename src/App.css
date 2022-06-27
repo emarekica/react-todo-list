@@ -5,38 +5,3 @@
   letter-spacing: 0.2em;
   text-align: center;
 }
-
-/* ---- */
-
-/* @media (max-width: 730px) {
-  .formContainer {
-    margin: 1em 3em 1em 2em;
-    width: 80%;
-    padding: 0 1em 2em 1em;
-  }
-
-  .input {
-    width: 12em;
-  }
-
-  .listItem {
-    font-size: 0.6em;
-  }
-} */
-
-/* @media (max-width: 570px) {
-  .formContainer {
-    margin: 0 auto;
-    padding-bottom: 1.5em;
-    width: 90%;
-  }
-
-  .input {
-    font-size: 0.5em;
-    width: 10em;
-  }
-
-  .listItem {
-    font-size: 0.5em;
-  }
-} */

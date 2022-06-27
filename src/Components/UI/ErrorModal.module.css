@@ -1,17 +1,3 @@
-/* .modal-container {
-  text-align: center;
-  font-family: "Nanum Pen Script", cursive;
-  font-size: 3em;
-  letter-spacing: 0.1em;
-  overflow-wrap: normal;
-  transform: translateY(2em);
-  margin: 0 5em;
-  line-height: 1.6em;
-  background-color: #63b8d64a;
-  border-radius: 0.3em;
-  padding: 0.5em 1em 1.5em 1em;
-} */
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -76,10 +62,6 @@
     padding: 0.3em 1em;
     margin: 0 auto;
     height: 12em;
-    /* position: fixed;
-    bottom: 4em;
-    left: 4em;
-    right: 3em; */
   }
 }
 
