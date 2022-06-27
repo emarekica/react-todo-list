@@ -1,4 +1,54 @@
-# Getting Started with Create React App
+## TO-DO List
+
+<br>
+
+This is a simple React project aimed to stengthen basic React principles.
+
+<br>
+
+- React project instalation
+
+- component creation
+
+- JSX
+
+- styling (dyanimc styles)
+
+- props
+
+- state management (useState hook, lifting up state)
+
+- handling lists
+
+- conditional content
+
+- modal window
+
+- validation & reset
+
+- input management
+
+- debugging
+
+<br><br>
+
+---
+
+<br>
+
+## Mockup
+
+<br>
+
+![TO-DO list mockup](./assets/to-do_mockup.png)
+
+<br><br>
+
+---
+
+<br>
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
