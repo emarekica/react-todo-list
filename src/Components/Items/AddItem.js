@@ -4,18 +4,25 @@ import React, { useState } from "react";
 
 import Button from "../UI/Button";
 import Card from "../UI/Card";
+import ErrorModal from "../UI/ErrorModal";
 import classes from "./AddItem.module.css";
 
 const AddItem = (props) => {
   const [newItem, setNewItem] = useState("");
+  const [error, setError] = useState();
 
   // function executed when form submitted
-  // send via props "previousItemAdded" to the place (component) that handles it
   const formSubmitHandler = (e) => {
     e.preventDefault();
 
     // validation (stop if input field empty)
     if (newItem.trim().length === 0) {
+      // error state
+      setError({
+        errorMessage:
+          "Think harder, get your pencil and write something! You can do it!",
+      });
+
       return;
     }
 
@@ -32,13 +39,24 @@ const AddItem = (props) => {
     setNewItem(e.target.value);
   };
 
+  // closes error modal
+  const errorHandler = () => {
+    setError(null);
+  };
+
   return (
     <div>
-      <Card className={classes.input}>
-        <form onSubmit={formSubmitHandler} className="formContainer">
+      {error && (
+        <ErrorModal
+          errorMessage={error.errorMessage}
+          onHandlingError={errorHandler}
+        />
+      )}
+      <Card classFromOutside={classes.input}>
+        <form onSubmit={formSubmitHandler} className={classes.formContainer}>
           <p className="textElement">Add an item:</p>
 
-          <div className="inputContainer">
+          <div className={classes.inputContainer}>
             <input
               className="input"
               type="text"

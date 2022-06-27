@@ -26,7 +26,9 @@
 
 [x] Fill Components with logic
 
-[ ] Add Error Modal
+[x] Add Error Modal
+
+[ ] Adjust Modal position
 
 [ ] Fix list rendering outside of the AddItem component (see Expense tracker project)
 

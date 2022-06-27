@@ -24,8 +24,10 @@ const App = (props) => {
     <div>
       <header className="header">My TO-DO list</header>
 
-      <AddItem onAddingNewItem={addNewItemHandler} />
-      <ItemList itemsFromInput={listItem} />
+      <div>
+        <AddItem onAddingNewItem={addNewItemHandler} />
+        <ItemList itemsFromInput={listItem} />
+      </div>
     </div>
   );
 };
