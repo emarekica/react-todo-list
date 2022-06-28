@@ -1,4 +1,4 @@
-# TO-DO app
+# TO-DO APP NOTES
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <hr />
 
-## Next to add
+## Next to config:
 
 <br>
 
