@@ -61,7 +61,7 @@ This is a simple React project aimed to stengthen basic React principles.
 
 <br>
 
-[ ] Add check box next to each item to remove it
+[ ] Add check box next to each item to remove it >> doesn't remove it, but **strikes it**
 
 <br<br>
 
