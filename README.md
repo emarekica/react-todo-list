@@ -6,6 +6,7 @@ This is a simple React project aimed to stengthen basic React principles.
 
 <br>
 
+
 - React project instalation
 
 - component creation
@@ -31,6 +32,14 @@ This is a simple React project aimed to stengthen basic React principles.
 - debugging
 
 <br><br>
+
+---
+
+<br>
+
+[Try writing your own post it!](emarekica-react-todo-list.netlify.app)
+
+<br>
 
 ---
 
