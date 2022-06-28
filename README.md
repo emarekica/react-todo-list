@@ -48,14 +48,6 @@ This is a simple React project aimed to stengthen basic React principles.
 
 <br>
 
-[Try the app](https://emarekica.github.io/react-todo-list/)
-
-<br><br>
-
----
-
-<br>
-
 ## Improvements
 
 <br>
