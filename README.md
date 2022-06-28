@@ -56,6 +56,18 @@ This is a simple React project aimed to stengthen basic React principles.
 
 <br>
 
+## Improvements
+
+<br>
+
+[ ] Add check box next to each item to remove it
+
+<br<br>
+
+---
+
+<br>
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
