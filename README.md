@@ -37,7 +37,7 @@ This is a simple React project aimed to stengthen basic React principles.
 
 <br>
 
-[Try writing your own post it!](emarekica-react-todo-list.netlify.app)
+[Try writing your own post-it!](https://emarekica-react-todo-list.netlify.app)
 
 <br>
 
