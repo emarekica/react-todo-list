@@ -64,16 +64,6 @@ This is a simple React project aimed to stengthen basic React principles.
 
 [ ] add button to make a new list (reloads the page)
 
-[x] add favicon
-
-[x] check error modal CSS in queries
-
-- smaller font in modal in mobile mode + make the container wider (horrible on Firefox)
-- in mobile, the GOT IT button to exit the error modal is invisible + not working
-- make error modal container not overlap with the input field
-
-[ ] implement SCSS
-
 [ ] Add [password validation](https://stackoverflow.com/questions/12090077/javascript-regular-expression-password-validation-having-special-characters)
 
 <br><br>

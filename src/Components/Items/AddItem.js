@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Button from "../UI/Button";
 import ErrorModal from "../UI/ErrorModal";
 
-import classes from "./AddItem.module.css";
+import classes from "./AddItem.module.scss";
 
 const AddItem = (props) => {
   const [newItem, setNewItem] = useState("");

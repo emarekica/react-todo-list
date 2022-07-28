@@ -2,11 +2,28 @@
 
 <br>
 
-## Components
+## SCSS with CSS modules in React app
+
+<br>
+
+1. Install node-sass: npm install node-sass
+
+2. Change file extension .css to .scss
+
+3. Import/change the extension of your imported files from .css to .scss in React components that use it
+
+4. run the app
+
+<br>
+
+[Resource](https://medium.com/officialrajdeepsingh/how-to-add-scss-sass-in-react-js-6615b6e77e56)
+
+<br>
 
 <hr />
+<br>
 
-## Next to config:
+## Implemented:
 
 <br>
 
@@ -34,7 +51,11 @@
 
 [x] Style `ul`
 
-[ ] polish error modal sizes
+[x] check error modal CSS in queries
+
+[x] add favicon
+
+[x] implement SCSS
 
 <br><br>
 

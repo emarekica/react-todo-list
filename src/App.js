@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import AddItem from "./Components/Items/AddItem";
 import Card from "./Components/UI/Card";
 import ItemList from "./Components/Items/ItemList";
-import "./App.css";
+
+import "./App.scss";
 
 const App = (props) => {
   const [listItem, setListItem] = useState([]);

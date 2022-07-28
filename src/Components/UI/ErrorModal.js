@@ -1,7 +1,8 @@
 import React from "react";
 
 import Button from "./Button";
-import classes from "./ErrorModal.module.css";
+
+import classes from "./ErrorModal.module.scss";
 
 const ErrorModal = (props) => {
   return (
