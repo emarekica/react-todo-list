@@ -40,13 +40,21 @@
 
 @media (max-width: 1301px) {
   .container {
-    left: 10em;
-    right: 10em;
+    /* left: 10em;
+    right: 10em; */
+    flex-flow: column-reverse;
+    justify-content: right;
+    align-items: center;
+    top: 13em;
   }
 
   .modal {
-    font-size: 1em;
-    padding: 0.5em 1em;
+    font-size: smaller;
+    padding: 0.5em 1em 0 1em;
+  }
+
+  .backdrop {
+    left: 0;
   }
 }
 
@@ -67,8 +75,11 @@
 
 @media (max-width: 820) {
   .container {
-    left: 5em;
-    right: 5em;
+    left: 0;
+    right: 0;
+    flex-flow: column-reverse;
+    justify-content: right;
+    align-items: center;
   }
 
   .modal {
@@ -77,24 +88,33 @@
     position: fixed;
     bottom: 7em;
   }
+
+  .backdrop {
+    left: 0;
+  }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 716px) {
   .container {
-    bottom: 13em;
+    /* bottom: 13em; */
+    left: 0;
+    right: 0;
+    flex-flow: column-reverse;
+    justify-content: right;
+    align-items: center;
   }
 
   .modal {
-    font-size: 1.5em;
+    font-size: 0.7em;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
   .container {
     bottom: 10em;
   }
   .modal {
-    font-size: 1.5em;
+    font-size: 0.6em;
     height: auto;
     padding-bottom: 1.5em;
   }

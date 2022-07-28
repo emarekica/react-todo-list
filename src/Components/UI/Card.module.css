@@ -30,10 +30,10 @@ p {
   margin: 1.5em 0 0.7em 0;
 }
 
-@media (max-width: 730px) {
+@media (max-width: 716px) {
   .formContainer {
     margin: 1em 3em 1em 2em;
-    width: 80%;
+    width: 16em;
     padding: 0 1em 2em 1em;
   }
 }
