@@ -1,3 +1,6 @@
+@import "../../style/mixins";
+@import "../../style/variables";
+
 .header {
   margin: 3em 0 1.5em 0;
 
@@ -18,11 +21,10 @@
 
   background-color: #f2ec9482;
   border-radius: 0.3em;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
-    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
-    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 
-  font-family: "Nanum Pen Script", cursive;
+  @include cardShadow;
+
+  font-family: $body-font;
   font-size: 2em;
 }
 

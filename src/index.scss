@@ -9,15 +9,10 @@
 
 /* 
 font-family: 'Rock Salt', cursive;
-font-family: 'Indie Flower', cursive;
-
 font-family: 'Nanum Pen Script', cursive;
-
-font-family: 'Coming Soon', cursive;
-font-family: 'Cedarville Cursive', cursive;
-
-
 */
+
+@import "./style/variables";
 
 * {
   box-sizing: border-box;
@@ -28,5 +23,5 @@ body {
   justify-content: center;
 
   background: url(../assets/papir.png);
-  font-family: "Rock Salt", cursive;
+  font-family: $handwritting-font;
 }

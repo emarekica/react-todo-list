@@ -58,13 +58,3 @@
 [x] implement SCSS
 
 <br><br>
-
-<hr />
-
-<br>
-
-## Improvements
-
-<br>
-
-[ ] Add check box next to each item to remove it

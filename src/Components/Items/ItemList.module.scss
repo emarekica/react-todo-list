@@ -1,7 +1,9 @@
+@import "../../style/variables";
+
 .list {
   margin-top: 2em;
 
-  font-family: "Rock Salt", cursive;
+  font-family: $handwritting-font;
   font-size: 0.7em;
   font-weight: 200;
   line-height: 2em;
