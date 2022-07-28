@@ -98,7 +98,7 @@
 
 @media (max-width: 580px) {
   .container {
-    bottom: 10em;
+    @include constainerSetting;
   }
   .modal {
     font-size: 0.6em;
