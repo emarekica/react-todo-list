@@ -64,7 +64,7 @@ This is a simple React project aimed to stengthen basic React principles.
 
 [ ] add button to make a new list (reloads the page)
 
-[ ] add favicon
+[x] add favicon
 
 [x] check error modal CSS in queries
 
