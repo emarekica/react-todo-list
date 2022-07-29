@@ -71,7 +71,7 @@
 
 @media (max-width: 820) {
   .container {
-    @include constainerSetting;
+    @include containerSetting;
   }
 
   .modal {
@@ -88,7 +88,7 @@
 
 @media (max-width: 716px) {
   .container {
-    @include constainerSetting;
+    @include containerSetting;
   }
 
   .modal {
@@ -98,11 +98,17 @@
 
 @media (max-width: 580px) {
   .container {
-    @include constainerSetting;
+    @include containerSetting;
   }
   .modal {
     font-size: 0.6em;
     height: auto;
     padding-bottom: 1.5em;
+  }
+}
+
+@media (max-width: 380px) {
+  .container {
+    top: 16em;
   }
 }

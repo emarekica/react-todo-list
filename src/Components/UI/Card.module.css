@@ -1,0 +1,50 @@
+.header {
+  margin: 3em 0 1.5em 0;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  margin: 1em 4em 3em 4em;
+  padding: 0.2em 0 2em 0.4em;
+  width: 20em;
+  height: 17em;
+  background-color: #f2ec9482;
+  border-radius: 0.3em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+          box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2em;
+}
+
+p {
+  margin: 1.5em 0 0.7em 0;
+}
+
+@media (max-width: 716px) {
+  .formContainer {
+    margin: 1em 3em 1em 2em;
+    width: 16em;
+    padding: 0 1em 2em 1em;
+  }
+}
+
+@media (max-width: 570px) {
+  .formContainer {
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=Card.module.css.map */

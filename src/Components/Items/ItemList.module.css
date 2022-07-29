@@ -1,0 +1,21 @@
+.list {
+  margin-top: 2em;
+  font-family: "Rock Salt", cursive;
+  font-size: 0.7em;
+  font-weight: 200;
+  line-height: 2em;
+  text-align: start;
+}
+
+@media (max-width: 730px) {
+  .list-item {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 570px) {
+  .list-item {
+    font-size: 0.5em;
+  }
+}
+/*# sourceMappingURL=ItemList.module.css.map */

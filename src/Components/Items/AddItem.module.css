@@ -1,0 +1,33 @@
+.input {
+  margin: 0.5em 0 0.5em 0;
+  padding: 0.5em 0.5em;
+  width: 15em;
+  border: none;
+  border-radius: 0.3em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.input:focus {
+  outline: none;
+  text-transform: lowercase;
+}
+
+@media (max-width: 730px) {
+  .input {
+    width: 12em;
+  }
+}
+
+@media (max-width: 570px) {
+  .input {
+    font-size: 0.5em;
+    width: 10em;
+  }
+}
+/*# sourceMappingURL=AddItem.module.css.map */
