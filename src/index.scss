@@ -12,7 +12,8 @@ font-family: 'Rock Salt', cursive;
 font-family: 'Nanum Pen Script', cursive;
 */
 
-@import "./style/variables";
+@import "./style/variables.scss";
+@import "./style/reset.scss";
 
 * {
   box-sizing: border-box;
