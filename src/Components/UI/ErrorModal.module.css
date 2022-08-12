@@ -22,9 +22,12 @@
 
 .modal {
   position: static;
-  padding: 0.5em 2em 2em 2em;
+  -webkit-transform: translateY(-2em);
+          transform: translateY(-2em);
+  font-size: 0.6em;
+  padding: 2em 0.5em;
+  width: 20em;
   height: 13em;
-  width: 12em;
   background-color: #63b7d682;
   -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
           box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
@@ -37,6 +40,7 @@
 
 @media (max-width: 1301px) {
   .container {
+    position: fixed;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-flow: column-reverse;
@@ -50,8 +54,8 @@
     top: 13em;
   }
   .modal {
-    font-size: smaller;
-    padding: 0.5em 1em 0 1em;
+    font-size: 0.6em;
+    padding: 2.5em 1em 0 1em;
   }
   .backdrop {
     left: 0;
@@ -60,17 +64,22 @@
 
 @media (max-width: 950px) {
   .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     left: 8em;
     right: 8em;
   }
   .modal {
-    padding: 0.3em 1em;
+    -webkit-transform: translateX(0.625em, -2em);
+            transform: translateX(0.625em, -2em);
+    padding: 2.5em 1em;
     margin: 0 auto;
     height: 12em;
   }
 }
 
-@media (max-width: 820) {
+@media (max-width: 880px) {
   .container {
     left: 0;
     right: 0;
@@ -84,12 +93,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .modal {
-    padding-top: 0.5em;
-    font-size: 0.8em;
-    position: fixed;
-    bottom: 7em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .backdrop {
     left: 0;
@@ -112,7 +118,12 @@
             align-items: center;
   }
   .modal {
-    font-size: 0.7em;
+    -webkit-transform: translateY(-1.6em);
+            transform: translateY(-1.6em);
+    width: 16em;
+    height: 11em;
+    font-size: 0.6em;
+    padding-bottom: 1em;
   }
 }
 

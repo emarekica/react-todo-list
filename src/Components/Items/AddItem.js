@@ -54,7 +54,7 @@ const AddItem = (props) => {
       )}
       <div>
         <form onSubmit={formSubmitHandler} className={classes.formContainer}>
-          <p className="textElement">Add an item:</p>
+          <p className={classes.header}>Add an item:</p>
 
           <div className={classes.inputContainer}>
             <input

@@ -22,9 +22,11 @@
 .modal {
   position: static;
 
-  padding: 0.5em 2em 2em 2em;
+  transform: translateY(-2em);
+  font-size: 0.6em;
+  padding: 2em 0.5em;
+  width: 20em;
   height: 13em;
-  width: 12em;
 
   background-color: #63b7d682;
 
@@ -40,6 +42,7 @@
 
 @media (max-width: 1301px) {
   .container {
+    position: fixed;
     flex-flow: column-reverse;
     justify-content: right;
     align-items: center;
@@ -47,8 +50,8 @@
   }
 
   .modal {
-    font-size: smaller;
-    padding: 0.5em 1em 0 1em;
+    font-size: 0.6em;
+    padding: 2.5em 1em 0 1em;
   }
 
   .backdrop {
@@ -58,27 +61,23 @@
 
 @media (max-width: 950px) {
   .container {
+    display: flex;
     left: 8em;
     right: 8em;
   }
 
   .modal {
-    padding: 0.3em 1em;
+    transform: translateX(0.625em, -2em);
+    padding: 2.5em 1em;
     margin: 0 auto;
     height: 12em;
   }
 }
 
-@media (max-width: 820) {
+@media (max-width: 880px) {
   .container {
     @include containerSetting;
-  }
-
-  .modal {
-    padding-top: 0.5em;
-    font-size: 0.8em;
-    position: fixed;
-    bottom: 7em;
+    display: flex;
   }
 
   .backdrop {
@@ -92,7 +91,11 @@
   }
 
   .modal {
-    font-size: 0.7em;
+    transform: translateY(-1.6em);
+    width: 16em;
+    height: 11em;
+    font-size: 0.6em;
+    padding-bottom: 1em;
   }
 }
 
