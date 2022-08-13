@@ -9,7 +9,9 @@ const ItemList = (props) => {
   return (
     <ul className={classes.list}>
       {props.itemsFromInput.map((item) => (
-        <li key={item.id}>{item.name}</li>
+        <li className={classes.item} key={item.id}>
+          {item.name}
+        </li>
       ))}
     </ul>
   );

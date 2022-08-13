@@ -8,14 +8,20 @@
 }
 
 @media (max-width: 730px) {
-  .list-item {
-    font-size: 0.6em;
+  .item {
+    font-size: 1em;
   }
 }
 
 @media (max-width: 570px) {
-  .list-item {
-    font-size: 0.5em;
+  .item {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 360px) {
+  .item {
+    font-size: 0.8em;
   }
 }
 /*# sourceMappingURL=ItemList.module.css.map */

@@ -22,12 +22,12 @@
 
 .modal {
   position: static;
-  -webkit-transform: translateY(-2em);
-          transform: translateY(-2em);
+  -webkit-transform: translateY(-3.3em);
+          transform: translateY(-3.3em);
   font-size: 0.6em;
   padding: 2em 0.5em;
   width: 20em;
-  height: 13em;
+  height: 10em;
   background-color: #63b7d682;
   -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
           box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
@@ -127,7 +127,7 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 560px) {
   .container {
     left: 0;
     right: 0;
@@ -143,15 +143,24 @@
             align-items: center;
   }
   .modal {
+    -webkit-transform: translateY(-4.5em);
+            transform: translateY(-4.5em);
+    height: 13em;
+    width: 13em;
     font-size: 0.6em;
-    height: auto;
     padding-bottom: 1.5em;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
   .container {
     top: 16em;
+  }
+  .modal {
+    -webkit-transform: translateY(-11em);
+            transform: translateY(-11em);
+    width: 11em;
+    height: 14em;
   }
 }
 /*# sourceMappingURL=ErrorModal.module.css.map */

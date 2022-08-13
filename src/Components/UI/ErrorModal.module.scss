@@ -22,11 +22,11 @@
 .modal {
   position: static;
 
-  transform: translateY(-2em);
+  transform: translateY(-3.3em);
   font-size: 0.6em;
   padding: 2em 0.5em;
   width: 20em;
-  height: 13em;
+  height: 10em;
 
   background-color: #63b7d682;
 
@@ -99,19 +99,27 @@
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 560px) {
   .container {
     @include containerSetting;
   }
   .modal {
+    transform: translateY(-4.5em);
+    height: 13em;
+    width: 13em;
     font-size: 0.6em;
-    height: auto;
     padding-bottom: 1.5em;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
   .container {
     top: 16em;
+  }
+
+  .modal {
+    transform: translateY(-11em);
+    width: 11em;
+    height: 14em;
   }
 }

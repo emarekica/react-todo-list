@@ -29,6 +29,22 @@
 }
 
 @media (max-width: 570px) {
+  .header {
+    font-size: 0.9em;
+    padding: 0.3em;
+  }
+  .input {
+    font-size: 0.5em;
+    width: 10em;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    padding: 0.3em;
+    font-size: 0.7em;
+    margin-top: 1.2em;
+  }
   .input {
     font-size: 0.5em;
     width: 10em;
