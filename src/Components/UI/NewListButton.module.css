@@ -1,0 +1,78 @@
+.newListButton {
+  position: absolute;
+  width: 5em;
+  height: 4em;
+  background: transparent;
+  transform: translate(55em, -2em);
+  margin: 1em 0 0 4em;
+  border: none;
+}
+
+.newListPen {
+  width: 4em;
+  height: auto;
+}
+
+@media (max-width: 950px) {
+  .newListButton {
+    margin: 0 auto;
+    transform: translate(58em, -1em);
+  }
+}
+
+@media (max-width: 810px) {
+  .newListButton {
+    transform: translate(53em, -2.5em);
+  }
+}
+
+@media (max-width: 716px) {
+  .newListButton {
+    transform: translate(35em, -2em);
+    width: 4em;
+    margin-left: 2em;
+  }
+
+  .newListPen {
+    width: 3em;
+    height: auto;
+  }
+}
+
+@media (max-width: 660px) {
+  .newListButton {
+    transform: translate(30em, -2em);
+  }
+}
+
+@media (max-width: 560px) {
+  .newListButton {
+    transform: translate(20em, -2em);
+  }
+}
+
+@media (max-width: 455px) {
+  .newListButton {
+    transform: translate(17em, -2em);
+  }
+
+  .newListPen {
+    width: 2em;
+  }
+}
+
+@media (max-width: 360px) {
+  .newListButton {
+    transform: translate(15em, -3em);
+  }
+}
+
+/* CSS POSITION/DISPLAY:
+
+https://www.youtube.com/watch?v=P6UgYq3J3Qs 
+
+https://www.youtube.com/watch?v=UO8ed-JB4So
+
+https://www.youtube.com/watch?v=Qf-wVa9y9V4
+
+*/

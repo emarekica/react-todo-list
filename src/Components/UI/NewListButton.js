@@ -1,7 +1,7 @@
 import React from "react";
 import PenImg from "../../assets/pen8.png";
 
-import classes from "./NewListButton.css";
+import classes from "./NewListButton.module.css";
 
 const NewListButton = (props) => {
   const resetFunction = () => {
@@ -9,11 +9,11 @@ const NewListButton = (props) => {
   };
 
   return (
-    <button className={classes.newListButton} id="sendButton" type="reset">
+    <button className={classes.newListButton} type="button">
       <img
         src={PenImg}
         alt="Drawing of a pen"
-        id="newListPen"
+        className={classes.newListPen}
         // event listener
         onClick={resetFunction}
       />
