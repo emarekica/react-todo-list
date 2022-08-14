@@ -4,6 +4,8 @@ import AddItem from "./Components/Items/AddItem";
 import Card from "./Components/UI/Card";
 import ItemList from "./Components/Items/ItemList";
 
+import NewListButton from "./Components/UI/NewListButton";
+
 import "./App.scss";
 
 const App = (props) => {
@@ -23,6 +25,8 @@ const App = (props) => {
 
   return (
     <div>
+      <NewListButton />
+
       <header className="header">My TO-DO list</header>
 
       <div>
