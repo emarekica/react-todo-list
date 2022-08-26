@@ -23,9 +23,13 @@ const App = (props) => {
     });
   };
 
+  const clearAllInputs = (e) => {
+    setListItem([]);
+  };
+
   return (
     <div>
-      <NewListButton />
+      <NewListButton onButtonClick={clearAllInputs} />
 
       <header className="header">My TO-DO list</header>
 

@@ -62,8 +62,6 @@ This is a simple React project aimed to stengthen basic React principles.
 
 [ ] Add check box next to each item to remove it >> doesn't remove it, but **strikes it**
 
-[ ] Add button to make a new list (reloads the page)
-
 [ ] Add [password validation](https://stackoverflow.com/questions/12090077/javascript-regular-expression-password-validation-having-special-characters)
 
 <br><br>

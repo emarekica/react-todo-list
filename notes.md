@@ -57,4 +57,6 @@
 
 [x] implement SCSS
 
+[x] Add button to make a new list (reloads the page)
+
 <br><br>

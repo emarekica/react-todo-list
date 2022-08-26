@@ -4,8 +4,10 @@ import PenImg from "../../assets/pen8.png";
 import classes from "./NewListButton.module.css";
 
 const NewListButton = (props) => {
-  const resetFunction = () => {
+  const resetFunction = (e) => {
     console.log("Clicked!");
+    // pass the onButtonClick={clearAllInputs} via props from the parent
+    props.onButtonClick(e.target.value);
   };
 
   return (
@@ -23,7 +25,18 @@ const NewListButton = (props) => {
 
 export default NewListButton;
 
-// customOnClick is defined where the Button is used
+// CLEARING INPUTS
+// use sate to store entered values
+
+// pass the event listener from APP.JS where the Button is used
+
+// const clearAllInputs = (e) => {
+//   setListItem("");
+// };
+
+// <NewListButton onButtonClick={clearAllInputs} />
+
+// https://reactjs.org/docs/handling-events.html
 
 /* 
 
